@@ -12,7 +12,6 @@ import java.util.List;
  * @author jaakkpaa
  */
 public interface Reader2 {
-
 	List<Player> getPlayers();
 	
 }
