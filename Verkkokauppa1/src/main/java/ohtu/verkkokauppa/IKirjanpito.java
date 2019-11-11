@@ -3,15 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ohtuesimerkki;
+package ohtu.verkkokauppa;
 
-import java.util.List;
+import java.util.ArrayList;
 
 /**
  *
  * @author jaakkpaa
  */
-public interface Reader2 {
-	List<Player> getPlayers();
+public interface IKirjanpito {
+
+	ArrayList<String> getTapahtumat();
+
+	void lisaaTapahtuma(String tapahtuma);
 	
 }
