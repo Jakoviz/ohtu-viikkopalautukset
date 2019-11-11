@@ -1,5 +1,8 @@
 package ohtu.verkkokauppa;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component
 public class Pankki implements IPankki {
 
 //    private static Pankki instanssi;
@@ -11,11 +14,12 @@ public class Pankki implements IPankki {
 //
 //        return instanssi;
 //    }
+    @Autowired
     private IKirjanpito kirjanpito;
 
-    public Pankki(IKirjanpito kirjanpito) {
-        this.kirjanpito = kirjanpito;
-    }
+//    public Pankki(IKirjanpito kirjanpito) {
+//        this.kirjanpito = kirjanpito;
+//    }
 
 	@Override
     public boolean tilisiirto(String nimi, int viitenumero, String tililta, String tilille, int summa) {
