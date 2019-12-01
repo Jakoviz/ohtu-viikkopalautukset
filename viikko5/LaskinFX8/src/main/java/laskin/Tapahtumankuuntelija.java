@@ -14,7 +14,6 @@ public class Tapahtumankuuntelija implements EventHandler {
     private Map<Button, Komento> komennot;
     private Komento edellinen = null;
  
-
     public Tapahtumankuuntelija(TextField tuloskentta, TextField syotekentta, Button plus, Button miinus, Button nollaa, Button undo) {
         this.undo = undo;
         this.sovellus = new Sovelluslogiikka();

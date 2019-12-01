@@ -8,10 +8,6 @@ package laskin;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 
-/**
- *
- * @author jaakkpaa
- */
 public class Nollaa extends Komento {
 
 	public Nollaa(TextField tuloskentta, TextField syotekentta, Sovelluslogiikka sovellus) {
