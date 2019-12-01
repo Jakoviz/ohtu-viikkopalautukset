@@ -8,11 +8,6 @@ package laskin;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 
-/**
- *
- * @author jaakkpaa
- */
-
 public abstract class Komento {
 	int tuloskentanAiempiArvo;
 	int syotekentanArvo;
