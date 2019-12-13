@@ -31,7 +31,7 @@ public class Main {
 //				new HasAtLeast(20, "points"),
 //				new Or(
 //						new PlaysIn("NYR"),
-//						new PlaysIn("NYI"),
+//					new PlaysIn("NYI"),
 //						new PlaysIn("NJD")
 //				)
 //		);
@@ -63,5 +63,6 @@ public class Main {
 		for (Player player : stats.matches(m)) {
 			System.out.println(player);
 		}
+
     }
 }
