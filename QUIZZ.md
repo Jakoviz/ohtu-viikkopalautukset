@@ -45,7 +45,9 @@ Quiz 5
 
 Quiz 6
 
--
+End to end -testit testaavat järjestelmää kokonaisuudessaan, kurssin käyttämän terminologian <i>järjestelmätestit</i> ovat siis end to end -testejä - Kyllä
+
+Mielestäni ja netistä löytämieni tietojen mukaan end to end -testit ovat järjestelmätestien osajoukko, eli ajattelin, että väittämä, mikä pitäisi paikkansa olisi "end to end -testit ovat järjestelmätestejä".
 
 Quiz 7
 
